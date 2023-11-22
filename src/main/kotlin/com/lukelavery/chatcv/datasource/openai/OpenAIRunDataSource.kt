@@ -1,8 +1,8 @@
-package com.lukelavery.claimassistant.datasource.openai
+package com.lukelavery.chatcv.datasource.openai
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.lukelavery.claimassistant.datasource.RunDataSource
-import com.lukelavery.claimassistant.model.RunModel
+import com.lukelavery.chatcv.datasource.RunDataSource
+import com.lukelavery.chatcv.model.RunModel
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.http.*

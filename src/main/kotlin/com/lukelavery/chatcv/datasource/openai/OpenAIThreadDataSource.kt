@@ -1,7 +1,7 @@
-package com.lukelavery.claimassistant.datasource.openai
+package com.lukelavery.chatcv.datasource.openai
 
-import com.lukelavery.claimassistant.datasource.ThreadDataSource
-import com.lukelavery.claimassistant.model.ThreadModel
+import com.lukelavery.chatcv.datasource.ThreadDataSource
+import com.lukelavery.chatcv.model.ThreadModel
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.http.HttpEntity

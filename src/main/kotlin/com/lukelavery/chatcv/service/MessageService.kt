@@ -1,8 +1,8 @@
-package com.lukelavery.claimassistant.service
+package com.lukelavery.chatcv.service
 
-import com.lukelavery.claimassistant.data.MessageRequestBody
-import com.lukelavery.claimassistant.datasource.MessageDataSource
-import com.lukelavery.claimassistant.model.MessageModel
+import com.lukelavery.chatcv.data.MessageRequestBody
+import com.lukelavery.chatcv.datasource.MessageDataSource
+import com.lukelavery.chatcv.model.MessageModel
 import org.springframework.stereotype.Service
 
 @Service

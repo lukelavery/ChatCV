@@ -1,4 +1,4 @@
-package com.lukelavery.claimassistant
+package com.lukelavery.chatcv
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -7,12 +7,12 @@ import org.springframework.context.annotation.Bean
 import org.springframework.web.client.RestTemplate
 
 @SpringBootApplication
-class ClaimAssistantApplication {
+class ChatCVApplication {
 
 	@Bean
 	fun restTemplate(builder: RestTemplateBuilder): RestTemplate = builder.build()
 }
 
 fun main(args: Array<String>) {
-	runApplication<ClaimAssistantApplication>(*args)
+	runApplication<ChatCVApplication>(*args)
 }

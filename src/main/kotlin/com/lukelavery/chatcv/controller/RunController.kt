@@ -1,7 +1,7 @@
-package com.lukelavery.claimassistant.controller
+package com.lukelavery.chatcv.controller
 
-import com.lukelavery.claimassistant.model.RunModel
-import com.lukelavery.claimassistant.service.RunService
+import com.lukelavery.chatcv.model.RunModel
+import com.lukelavery.chatcv.service.RunService
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
 

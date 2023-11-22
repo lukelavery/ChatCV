@@ -1,10 +1,10 @@
-package com.lukelavery.claimassistant.datasource.openai
+package com.lukelavery.chatcv.datasource.openai
 
-import com.lukelavery.claimassistant.data.MessageListDto
-import com.lukelavery.claimassistant.data.MessageRequestBody
-import com.lukelavery.claimassistant.data.MessageResponse
-import com.lukelavery.claimassistant.datasource.MessageDataSource
-import com.lukelavery.claimassistant.model.MessageModel
+import com.lukelavery.chatcv.data.MessageListDto
+import com.lukelavery.chatcv.data.MessageRequestBody
+import com.lukelavery.chatcv.data.MessageResponse
+import com.lukelavery.chatcv.datasource.MessageDataSource
+import com.lukelavery.chatcv.model.MessageModel
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired

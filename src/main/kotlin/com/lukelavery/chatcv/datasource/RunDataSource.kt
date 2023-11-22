@@ -1,6 +1,6 @@
-package com.lukelavery.claimassistant.datasource
+package com.lukelavery.chatcv.datasource
 
-import com.lukelavery.claimassistant.model.RunModel
+import com.lukelavery.chatcv.model.RunModel
 
 interface RunDataSource {
 

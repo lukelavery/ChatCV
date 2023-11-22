@@ -1,7 +1,7 @@
-package com.lukelavery.claimassistant.datasource
+package com.lukelavery.chatcv.datasource
 
-import com.lukelavery.claimassistant.data.MessageRequestBody
-import com.lukelavery.claimassistant.model.MessageModel
+import com.lukelavery.chatcv.data.MessageRequestBody
+import com.lukelavery.chatcv.model.MessageModel
 
 interface MessageDataSource {
 

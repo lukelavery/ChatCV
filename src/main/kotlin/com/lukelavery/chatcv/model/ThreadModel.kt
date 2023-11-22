@@ -1,4 +1,4 @@
-package com.lukelavery.claimassistant.model
+package com.lukelavery.chatcv.model
 
 data class ThreadModel (
     val id: String

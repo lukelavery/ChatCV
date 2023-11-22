@@ -1,4 +1,4 @@
-package com.lukelavery.claimassistant.model
+package com.lukelavery.chatcv.model
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

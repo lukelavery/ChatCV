@@ -1,4 +1,4 @@
-package com.lukelavery.claimassistant.data
+package com.lukelavery.chatcv.data
 
 data class RunRequestBody(
 
