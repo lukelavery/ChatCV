@@ -11,12 +11,6 @@ ChatCV is a proof-of-concept allows potential employers to interactively ask que
 - **Frontend**: A responsive web application built with Flutter.
 - **OpenAI Assistants API**: Leveraging OpenAI's new Assistants API for parsing and understanding candidate data.
 
-## Features
-- **Interactive Chat Interface**: Engage with candidates' profiles through a dynamic chat interface.
-- **AI-driven Insights**: Utilize the power of OpenAI's Assistants API to analyze and present candidates' experiences.
-- **Responsive Web Application**: Accessible on various devices, ensuring flexibility in recruitment processes.
-- **Secure & Private**: Ensures confidentiality of candidate data and employer inquiries.
-
 ## Context Diagram
 <img src="https://github.com/lukelavery/ChatCV/blob/main/docs/Context%20Diagram.png">
 
