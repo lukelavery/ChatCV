@@ -5,6 +5,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.1.3"
 	kotlin("jvm") version "1.8.22"
 	kotlin("plugin.spring") version "1.8.22"
+	id ("java")
 }
 
 group = "com.lukelavery"
@@ -31,6 +32,10 @@ tasks.withType<KotlinCompile> {
 		freeCompilerArgs += "-Xjsr305=strict"
 		jvmTarget = "17"
 	}
+}
+
+tasks.jar {
+	enabled = false
 }
 
 tasks.withType<Test> {
